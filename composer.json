@@ -19,7 +19,7 @@
     "laravel": {
         "providers": [
             "Agnt86\\Control\\ControlServiceProvider"
-        ],
+        ]
     }
-},
+}
 }
