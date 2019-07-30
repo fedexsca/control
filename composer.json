@@ -1,18 +1,25 @@
 {
-    "name": "agnt86/control",
-    "description": "Elementos básicos de desarrollo web (backend)",
-    "type": "project",
-    "authors": [
-        {
-            "name": "Federico Scaiola",
-            "email": "federico@agente86.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {},
-    "autoload": {
-            "psr-4": {
-                "Agnt86\\Control\\": "src/"
-            }
-        }
+  "name": "agnt86/control",
+  "description": "Elementos básicos de desarrollo web (backend)",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Federico Scaiola",
+      "email": "federico@agente86.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Agnt86\\Control\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Agnt86\Control\ControlServiceProvider"
+      ],
+    }
+  }
 }
