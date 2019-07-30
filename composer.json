@@ -17,9 +17,9 @@
   },
   "extra": {
     "laravel": {
-      "providers": [
-        "Agnt86\Control\ControlServiceProvider"
-      ],
+        "providers": [
+            "Agnt86\\Control\\ControlServiceProvider"
+        ],
     }
-  }
+},
 }
