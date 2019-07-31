@@ -1,15 +1,21 @@
 {
   "name": "agnt86/control",
-  "description": "Elementos básicos de desarrollo web (backend)",
-  "type": "project",
+  "description": "Componentes básicos de desarrollo web (backend)",
+  "type": "library",
+  "require": {
+    "jeremykenedy/laravel-roles": "dev-master"
+  },
+  "require-dev": {
+    "yajra/laravel-datatables-oracle": "^9.0@dev"
+  },
+  "license": "MIT",
   "authors": [
     {
-      "name": "Federico Scaiola",
+      "name": "Agente 86",
       "email": "federico@agente86.com"
     }
   ],
   "minimum-stability": "dev",
-  "require": {},
   "autoload": {
     "psr-4": {
       "Agnt86\\Control\\": "src/"
@@ -17,9 +23,9 @@
   },
   "extra": {
     "laravel": {
-        "providers": [
-            "Agnt86\\Control\\ControlServiceProvider"
-        ]
+      "providers": [
+        "Agnt86\\Control\\ControlServiceProvider"
+      ]
     }
-}
+  }
 }

@@ -56,6 +56,59 @@
                             </ul>
                         </div>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-10" aria-controls="submenu-10"><i class="fas fa-fw fa-comment-dots"></i> Formularios </a>
+                        <div id="submenu-10" class="collapse submenu" style="">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/blank-page.html">Todos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/login.html">Categoría 1</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/login.html">Categoría 2</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="nav-divider">
+                        Configuraciones
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-8" aria-controls="submenu-8"><i class="fas fa-fw fa-users"></i> Usuarios </a>
+                        <div id="submenu-8" class="collapse submenu" style="">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/blank-page.html">Administrar</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/login.html">Nuevo Usuario</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-9" aria-controls="submenu-9"><i class="fas fa-fw fa-cog"></i> Ajustes </a>
+                        <div id="submenu-9" class="collapse submenu" style="">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/blank-page.html">Credenciales Google</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/login.html">SEO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/login.html">Mailing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/login.html">Notificaciones</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
 
 
                 </ul>
